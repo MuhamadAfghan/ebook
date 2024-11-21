@@ -1,0 +1,48 @@
+{
+  "book_categories": [
+    {
+      "id": 1,
+      "name": "Fantasy"
+    },
+    {
+      "id": 2,
+      "name": "Adventure"
+    },
+    {
+      "id": 3,
+      "name": "Horor"
+    },
+    {
+      "id": 4,
+      "name": "Comedy"
+    },
+    {
+      "id": 5,
+      "name": "Romance"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "book_category_id": 3,
+      "title": "The Land Of The Rings",
+      "author": "J.R.R. Tolkien",
+      "shynopsis": "Bercerita tentang pemuda yang bernama Heri yang sedang mencari cinta sejati nya!"
+    }
+  ],
+  "books_chapters": [
+    {
+      "id": "1",
+      "book_id": "1",
+      "title": "Chapter 1",
+      "content": "Heri seorang pemuda"
+    }
+  ],
+  "book_reviews": [
+    {
+      "id": 1,
+      "book_id": 1,
+      "total_likes": 5
+    }
+  ]
+}
